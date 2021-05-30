@@ -12,16 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.label :title, class: 'form-label' %>
+    <%= form.text_field :title, class: 'form-control' %>
   </div>
 
   <div class="field">
-    <%= form.label :content %>
-    <%= form.text_area :content %>
+    <%= form.label :content, class: 'form-label mt-2' %>
+    <%= form.text_area :content, class: 'form-control' %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="actions mt-3">
+    <%= form.submit class: 'btn btn-dark' %>
   </div>
 <% end %>
